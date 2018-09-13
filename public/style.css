@@ -1,8 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style-type: none; /* remove bullets */
   margin: 0;
   padding: 0;
-  width: 200px;
+  padding-top: 10px;
+  width: 25%;
   background-color: #f1f1f1;
   height: 100%;
   position: fixed;
@@ -21,7 +27,7 @@ li a:hover {
   color: white;
 }
 
-.active {
+li a.active {
   background-color: #53AEFE;
   color: white;
 }
