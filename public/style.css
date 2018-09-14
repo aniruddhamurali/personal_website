@@ -33,11 +33,16 @@ li a.active {
 }
 
 
+
+
 /* Style page content */
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+    margin-left: 25%; /* Same as the width of the sidebar */
+    padding: 0px;
+    padding-left: 10px;
+    /*padding-top: 5px;*/
 }
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
