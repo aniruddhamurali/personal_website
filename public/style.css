@@ -4,7 +4,6 @@ h2 {
 
 h3 {
   text-align: center;
-  padding-left: 10px;
 }
 
 img {
@@ -12,7 +11,7 @@ img {
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  margin-left: 6.5%;
+  margin-left: 15%;
 }
 
 body {
@@ -24,20 +23,21 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 10px;
-  width: 20%;
+  width: 25%;
   background-color: #f1f1f1;
   height: 100%;
   position: fixed;
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
-.ui.vertical.pointing.menu {
-  width: 90%
+.ui.secondary.vertical.pointing.menu {
+  width: 100%;
+  font-size: 18px;
 }
 
 /* Style page content */
 .main {
-  margin-left: 20%; /* Same as the width of the sidebar */
+  margin-left: 25%; /* Same as the width of the sidebar */
   padding: 0px;
   padding-left: 10px;
   /*padding-top: 5px;*/

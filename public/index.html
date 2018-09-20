@@ -28,8 +28,8 @@
     <div class="navbar">
       <img src="aniruddha.jpg" alt="Aniruddha Murali">
       <h2 class="ui large header">Aniruddha Murali</h2>
-      <h3 class="ui medium header">Student at Staples High School, Programmer at Heart</h3>
-      <div class="ui vertical pointing menu">
+      <h3 class="ui medium header">Student at Staples High School, a Programmer at Heart</h3>
+      <div class="ui secondary vertical pointing menu">
         <a class="item active">Home</a>
         <a class="item">About</a>
         <a class="item">Awards</a>
@@ -41,6 +41,7 @@
 
 
     <!-- Page content -->
+    <!-- right now with 25% margin -->
     <div class="main">
       <div class="home">
         <p> Hey! This is the Home section. </p>
@@ -57,13 +58,30 @@
       <div class="blog">
         <p> Hey! This is the Blog section. </p>
       </div>
+
       <div class="contact">
         <p> Hey! This is the Contact section. </p>
+        <form class="ui form segment">
+          <div class="field">
+            <label>Name</label>
+            <input placeholder="Name" name="name" type="text">
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input placeholder="Email" email="email" type="text">
+          </div>
+          <div class="field">
+            <label>Message</label>
+            <input placeholder="Message" message="message" type="text">
+          </div>
+          <div class="ui primary submit button">Submit</div>
+          <div class="ui clear button">Clear</div>
+        </form>
       </div>
     </div>
 
   </body>
-  
+
   <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
