@@ -1,5 +1,6 @@
-h2 {
+.ui.large.header {
   text-align: center;
+  font-size: 32px;
 }
 
 h3 {
@@ -32,8 +33,37 @@ body {
 
 .ui.secondary.vertical.pointing.menu {
   width: 100%;
-  font-size: 18px;
+  font-size: 15px;
 }
+
+.ui.huge.header {
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 36px;
+}
+
+.ui.divider {
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+/* Adjust container width */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.container {
+    width: 723px;
+  }
+  .ui.grid.container {
+    width: calc( 723px  +  2rem ) !important;
+  }
+  .ui.relaxed.grid.container {
+    width: calc( 723px  +  3rem ) !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: calc( 723px  +  5rem ) !important;
+  }
+}
+
 
 /* Style page content */
 .main {
