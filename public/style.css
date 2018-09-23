@@ -46,6 +46,10 @@ body {
   width: 90%;
   margin-left: 5%;
 }
+.ui.form.segment {
+  width: 90%;
+  margin-left: 5%;
+}
 
 
 /* Adjust container width */
