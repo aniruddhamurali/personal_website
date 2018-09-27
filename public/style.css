@@ -13,11 +13,38 @@ img {
   height: 250px;
   width: 250px;
   margin-left: 15%;
+  margin-top: 20px;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+i {
+  padding-left: 20px;
+  margin-left: 5%;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.icons {
+  margin-left: 25%;
+}
+
+.icon {
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
 .navbar {
@@ -33,7 +60,12 @@ body {
 
 .ui.secondary.vertical.pointing.menu {
   width: 100%;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.ui.raised.padded.container.segment {
+  width: 90%;
+  margin-left: 5%;
 }
 
 .ui.huge.header {
@@ -46,6 +78,7 @@ body {
   width: 90%;
   margin-left: 5%;
 }
+
 .ui.form.segment {
   width: 90%;
   margin-left: 5%;
