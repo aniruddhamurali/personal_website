@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/aniruddhamurali/personal_website#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "node-mandrill": "^1.0.1"
   }
 }

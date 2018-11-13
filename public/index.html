@@ -30,16 +30,22 @@
   <body>
     <!-- Side navigation -->
     <div class="navbar">
-      <img src="aniruddha.jpg" alt="Aniruddha Murali">
+      <img class="mainImage" src="aniruddha.jpg" alt="Aniruddha Murali">
       <h1 class="ui large header">ANIRUDDHA MURALI</h1>
       <h3 class="ui medium header">Student at Staples High School, Dean at the School of AI, Developer and Researcher</h3>
       <div class="ui secondary vertical pointing menu">
-        <a class="item red active">Home</a>
-        <a class="item orange">About</a>
+        <a class="item red active">About</a>
+        <a class="item orange">Portfolio</a>
         <a class="item yellow">Awards</a>
         <a class="item green">Experience</a>
         <a class="item blue">Blog</a>
         <a class="item violet">Contact</a>
+        <!--<a class="item active">About</a>
+        <a class="item">Portfolio</a>
+        <a class="item">Awards</a>
+        <a class="item">Experience</a>
+        <a class="item">Blog</a>
+        <a class="item">Contact</a>-->
       </div>
       <div class="icons">
         <span class="icon">
@@ -58,22 +64,40 @@
     <!-- Page content -->
     <!-- right now with 25% margin -->
     <div class="main">
-      <div class="home">
-        <!--<p> Hey! This is the Home section. </p>-->
-        <h1 class="ui huge header">HOME</h1>
-        <div class="ui divider"></div>
-        <div class="ui raised padded container segment">
-          <h2 class="ui header">This is the Home section.</h2>
-          <p></p>
-          <p></p>
-        </div>
-      </div>
-
       <div class="about">
+        <!--<p> Hey! This is the Home section. </p>-->
         <h1 class="ui huge header">ABOUT</h1>
         <div class="ui divider"></div>
         <div class="ui raised padded container segment">
-          <h2 class="ui header">This is the About section.</h2>
+          <!--<h2 class="ui header">This is the About section.</h2>-->
+          <img class="ui medium rounded image" src="profile_pic.jpg" alt="Aniruddha Murali">
+          <br></br>
+          <p>Hey! Welcome to my website! My name is Aniruddha Murali, and I'm currently a senior at Staples High School.
+            I'm a cringy yet fun geek who loves to code. Coding was something I started learning in 5th grade, and ever since then,
+            I've been doing everything I can to pursue my interests at the highest level, whether it's through research, internships,
+            leadership, fun projects, competitions, etc. Now, I know multiple different programming languages and have experience in
+            various fields in computer science, such as artificial intelligence, algorithms, web development, etc.
+          </p>
+          <p> I'm very strong in academics. By the end of high school, I will have taken 14 AP level courses and 9 honors courses by
+            the end of high school. I've also taken 9 AP Exams. I've also done academics outside of school, whether it's through selective programs,
+            research, or online courses.
+          </p>
+          <p> Outside of academics, I love sports. Before my stress fracture happened during my sophomore year of high school,
+            I did both ice hockey and kempo karate. I've played ice hockey ever since 3rd grade. I've competed in travel teams and 
+            went to tournaments in Boston, even making it to the finals once. I also played for my school's JV team in my freshman year.
+            As for kempo karate, I also started in 3rd grade. I am currently a 1st degree black belt. I also competed in a state tournament,
+            in which I won 3rd place in Sparring and 4th place in Manuevers. Even though I haven't done as much sports as I used to, I still watch
+            sports from time to time. I'm a New York Rangers fan and a New York Giants fan. I'm also rooting for the Miami Dolphins this season; after all,
+            I am working on a consulting project for them.
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <h1 class="ui huge header">PORTFOLIO</h1>
+        <div class="ui divider"></div>
+        <div class="ui raised padded container segment">
+          <h2 class="ui header">This is the Portfolio section.</h2>
           <p></p>
           <p></p>
         </div>
@@ -172,7 +196,7 @@
             </ul>
           </ul>
 
-          <h2 class="ui header"><u>Other Awards</u></h2>
+          <h2 class="ui header"><u>Other Awards & Accomplishments</u></h2>
           <ul style="font-size: 18px;">
             <li style="padding-bottom: 5px;">Ranked 12th (out of 1863 AI professionals) in the world at the 48-hour Innoplexus Online Hackathon Machine Learning Challenge to identify the articles that another article will cite as a reference</li>
             <li style="padding-bottom: 5px;">College Board Awards</li>
@@ -182,8 +206,9 @@
               <li style="padding-bottom: 5px;">AP Scholar with Distinction</li>
             </ul>
             <li style="padding-bottom: 5px;">Member of the National Honor Society</li>
-            <li style="padding-bottom: 5px;">Officer and Member of the Science National Honor Society (2018)</li>
+            <li style="padding-bottom: 5px;">Officer and Member of the Science National Honor Society</li>
             <li style="padding-bottom: 5px;">Member of the Mu Alpha Theta Mathematics Honor Society</li>
+            <li style="padding-bottom: 5px;">Accepted into Harvard University's Summer Business Academy (2016)</li>
           </ul>
 
         </div>
@@ -196,8 +221,9 @@
           <h2 class="ui header"><u>Skill Set</u></h2>
           <ul style="font-size: 18px;">
             <li style="padding-bottom: 5px;"><strong>Programming Languages</strong>: Python, Java, HTML, CSS, Javascript, R, Swift, C</li>
-            <li style="padding-bottom: 5px;"><strong>APIs</strong>: Scikit-Learn, OpenCV, Tensorflow, NumPy, Matplotlib, Pandas, jQuery</li>
+            <li style="padding-bottom: 5px;"><strong>APIs</strong>: Scikit-Learn, OpenCV, Tensorflow, NumPy, Matplotlib, Pandas, jQuery, Synaptic.js</li>
             <li style="padding-bottom: 5px;"><strong>Frameworks</strong>: Semantic-UI, Flask, BootStrap</li>
+            <li style="padding-bottom: 5px;"><strong>Tools</strong>: Github, Xcode, Atom, Heroku, Adobe Photoshop, Adobe Illustrator, SketchUp</li>
             <li style="padding-bottom: 15px;"><strong>Operating Systems</strong>: MacOS, Windows</li>
           </ul>
 
@@ -207,7 +233,7 @@
             <ul>
               <li style="padding-bottom: 5px;">Consulted the Miami Dolphins and analyzing their data using machine learning and statistics to come up with offensive strategies that work best for the team and predict the likelihood that a player will be injured.</li>
               <li style="padding-bottom: 5px;">Researching machine learning solutions for social media marketing</li>
-              <li style="padding-bottom: 15px;">Went with CEO, CPO, and other people at Zenabi on to Miami on October 20th to meet executives at the Miami Dolphins training facility and discuss findings and next steps.</li>
+              <li style="padding-bottom: 15px;">Went with CEO, CPO, and other people at Zenabi to Miami on October 20th to meet executives at the Miami Dolphins training facility and discuss findings and next steps.</li>
             </ul>
           </ul>
 
@@ -215,7 +241,7 @@
           <ul style="font-size: 18px;">
             <li style="padding-bottom: 5px;"><strong>Planning Committee Member, Coach, Volunteer, and Maker, Westport Public Library and Westport Maker Faire</strong>: February 2015 - Present</li>
             <ul>
-              <li style="padding-bottom: 5px;">Hosted ~13500 visitors at the 2018 Westport Maker Faire event, administered the registration booth, and showcased robotic projects to ~1000+ kids and adults.</li>
+              <li style="padding-bottom: 5px;">Hosted about 13,500 visitors at the 2018 Westport Maker Faire event, administered the registration booth, and showcased robotic projects to more than 1000 kids and adults.</li>
               <li style="padding-bottom: 5px;">Ran a 1-week outreach program to introduce Maker activities to about 30 kids at the Caroline House in Bridgeport, CT</li>
               <li style="padding-bottom: 5px;">Coached ~20+ kids and adults on 3D printing, robotics, Arduino, programming, etc.</li>
               <li style="padding-bottom: 5px;">Designed and programmed a printer made of Legos, a robot made of 3D-printed parts, Science Olympiad robot, and a BB-8 robot that can detect basic emotions.</li>
