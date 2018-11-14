@@ -62,11 +62,11 @@ p {
   padding: 0;
   padding-top: 8px;
   width: 25%;
-  background-color: #f1f1f1;
-  /*background-color: palegoldenrod;*/
+  /*background-color: #f1f1f1;*/
+  background-color: palegoldenrod;*/
   height: 100%;
   position: fixed;
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  /*overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
 .ui.secondary.vertical.pointing.menu {
@@ -83,6 +83,7 @@ p {
   padding-top: 5%;
   padding-left: 5%;
   font-size: 36px;
+  color: dodgerblue;
 }
 
 .ui.divider {
