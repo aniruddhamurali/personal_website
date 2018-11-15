@@ -58,10 +58,9 @@ $(document).ready(function(){
       $(".blog").hide();
     }
   });
-
 });
 
-var mandrill = require('node-mandrill')('HFBmP6jNtGU6yd-aHiYiDQ');
+//var mandrill = require('node-mandrill')('HFBmP6jNtGU6yd-aHiYiDQ');
 
 function sendEmail (_email, _subject, _message) {
   mandrill('/messages/send', {
