@@ -10,6 +10,7 @@ $(document).ready(function(){
     $("a").removeClass('active');
     $(this).addClass('active');
     if ($(this).text() == "About") {
+      window.location = "/../index.html";
       $(".about").show();
       $(".portfolio").hide();
       $(".awards").hide();
@@ -18,6 +19,7 @@ $(document).ready(function(){
       $(".contact").hide();
     }
     if ($(this).text() == "Portfolio") {
+      //window.location = "/../index.html";
       $(".portfolio").show();
       $(".about").hide();
       $(".awards").hide();
@@ -26,6 +28,7 @@ $(document).ready(function(){
       $(".contact").hide();
     }
     else if ($(this).text() == "Awards") {
+      //window.location = "/../index.html";
       $(".awards").show();
       $(".about").hide();
       $(".portfolio").hide();
@@ -34,6 +37,7 @@ $(document).ready(function(){
       $(".contact").hide();
     }
     else if ($(this).text() == "Experience") {
+      //window.location = "/../index.html";
       $(".experience").show();
       $(".about").hide();
       $(".portfolio").hide();
@@ -42,6 +46,7 @@ $(document).ready(function(){
       $(".contact").hide();
     }
     else if ($(this).text() == "Blog") {
+      //window.location = "/../index.html";
       $(".blog").show();
       $(".about").hide();
       $(".portfolio").hide();
@@ -50,6 +55,7 @@ $(document).ready(function(){
       $(".contact").hide();
     }
     else if ($(this).text() == "Contact") {
+      //window.location = "/../index.html";
       $(".contact").show();
       $(".about").hide();
       $(".portfolio").hide();
@@ -58,6 +64,7 @@ $(document).ready(function(){
       $(".blog").hide();
     }
   });
+
 });
 
 //var mandrill = require('node-mandrill')('HFBmP6jNtGU6yd-aHiYiDQ');
@@ -82,4 +89,6 @@ $('.ui .submit').on('click', function() {
   var name = document.getElementsByTagName("input")[0].value;
   var email = document.getElementsByTagName("input")[1].value;
   var message = document.getElementsByTagName("input")[2].value;
+  console.log("Hello");
+  window.location.href = "mailto:aniruddha.murali@gmail.com?body=yourBody";
 });
